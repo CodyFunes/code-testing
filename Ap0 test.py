@@ -10,3 +10,4 @@ N = int(input())
 balance: float = ((Initial_balance*(1+I)**N)-Initial_balance)
 
 print ('Compound interest after',N, 'years:', balance)
+
