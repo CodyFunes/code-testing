@@ -14,4 +14,3 @@ elif bob_credits and mary_credits < 15:
 print(totalcredit)
 
 
-23
