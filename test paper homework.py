@@ -5,8 +5,13 @@ mary_credits = int(input("Please enter the number of Mary's credits:"))
 
 print("Are bob and mary taking at least 15 credits:")
 
-totalcredit = "No"
-if bob_credits >= 15 and mary_credits >= 15:
-        totalcredit = "Yes"
+totalcredit = "Yes"
+if bob_credits and mary_credits >= 15:
+    totalcredit= "Yes"
+elif bob_credits and mary_credits < 15:
+    totalcredit= "No"
 
 print(totalcredit)
+
+
+23
