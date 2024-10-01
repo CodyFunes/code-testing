@@ -1,3 +1,6 @@
+import pygame_gui
+
+
 temp = float (input("What is the temperature?:"))
 
 if temp>90:

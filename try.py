@@ -22,8 +22,7 @@ class Player:
         self.shield = choice - 1
 
 
-# Child class of player with override methods for weapon
-# and shield selection
+
 class AiPlayer(Player):
     def __init__(self,name):
         super().__init__(name)
@@ -45,7 +44,7 @@ class Game:
         self.round += 1
         print("\n***   Round: %d   ***\n" %(self.round))
 
-    # Check if either or both Players is below zero health
+
     def checkWin(self, player, opponent):
         if player.health < 1 and opponent.health > 0:
             self.gameOver = True
@@ -81,14 +80,14 @@ class Game:
             print("%s blocked %s's attack - No Damage" %(opponent.name, player.name))
 
 
-# Setup Game Objects
+
 currentGame = Game()
 human = Player("Mark")
 ai = AiPlayer("Computer")
 
 players = [human, ai]
 
-# Main Game Loop
+
 while not currentGame.gameOver:
     for player in players:
         player.selectWeapon()
