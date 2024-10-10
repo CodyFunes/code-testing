@@ -14,8 +14,7 @@ def hero_name():
     window.tk(print("user entered:", user_input))
 
 
-#label = tk.Label(window, text="enter name")
-#label.pack()
+
 
 
 entry = tk.Entry(window)

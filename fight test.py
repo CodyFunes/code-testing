@@ -1,4 +1,9 @@
 import random
+
+enter_ party
+
+
+
 witch_health = 15
 
 player_attack = int(input(print("enter a number 1-7")))
