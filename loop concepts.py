@@ -7,11 +7,11 @@ checkpoint4 = 6
 start1 = 7
 
 
-while start1 == 7:
-    start_of_story = int(input("hello enter you A number between 1-4"))
+while start1 >= 7:
+    start_of_story = int(input("hello enter you A number between 1-4: "))
     while start_of_story != 1 and start_of_story != 2 and start_of_story != 3 and start_of_story != 4:
         print("pleases enter  1-4")
-        start_of_story = int(input("hello enter you A number between 1-4"))
+        start_of_story = int(input("hello enter you A number between 1-4: "))
 
     if start_of_story ==1:
         print("nice choice")
@@ -22,7 +22,7 @@ while start1 == 7:
                 favorite = input("Is this your favorite number. Y/N: ").lower().strip()
             if favorite == "y":
                 print("cool")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint1 = checkpoint1 + 4
                 elif restart1 == "s":
@@ -31,11 +31,11 @@ while start1 == 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint1 = checkpoint1 + 4
                 elif restart1 == "s":
-                    start1 = 2
+                    start1 = start1 -2
                 elif restart1 == "e":
                     exit()
 
@@ -44,11 +44,11 @@ while start1 == 7:
         favorite = input("Is this your favorite number. Y/N: ").lower().strip()
         while checkpoint2 <= 6:
             while favorite != "y" and favorite != "n":
-                print("please enter y or n")
+                print("please enter y or n:")
                 favorite = input("Is this your favorite number. Y/N: ").lower().strip()
             if favorite == "y":
                 print("cool")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint2 = checkpoint2 + 4
                 elif restart1 == "s":
@@ -57,9 +57,9 @@ while start1 == 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint2 = checkpoint2 + 4
                 elif restart1 == "s":
                     start1 = 2
                 elif restart1 == "e":
@@ -74,7 +74,7 @@ while start1 == 7:
                 favorite = input("Is this your favorite number. Y/N: ").lower().strip()
             if favorite == "y":
                 print("cool")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number:").lower().strip()
                 if restart1 == "fix1":
                     checkpoint3 = checkpoint3 + 4
                 elif restart1 == "s":
@@ -83,11 +83,11 @@ while start1 == 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint3 = checkpoint3 + 4
                 elif restart1 == "s":
-                    start1 = 2
+                    start1 = start1 - 3
                 elif restart1 == "e":
                     exit()
 
@@ -100,7 +100,7 @@ while start1 == 7:
                 favorite = input("Is this your favorite number. Y/N: ").lower().strip()
             if favorite == "y":
                 print("cool")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint4 = checkpoint4 + 4
                 elif restart1 == "s":
@@ -109,19 +109,19 @@ while start1 == 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint4 = checkpoint4 + 4
                 elif restart1 == "s":
                     start1 = 2
                 elif restart1 == "e":
                     exit()
 
-if start1 != 7:
-    start_of_story = int(input("hello enter you A number between 1-4"))
+if start1 <= 7:
+    start_of_story = int(input("hello enter you A number between 1-4: "))
     while start_of_story != 1 and start_of_story != 2 and start_of_story != 3 and start_of_story != 4:
-        print("pleases enter  1-4")
-        start_of_story = int(input("hello enter you A number between 1-4"))
+        print("pleases enter  1-4: ")
+        start_of_story = int(input("hello enter you A number between 1-4: "))
 
     if start_of_story == 1:
         print("nice choice")
@@ -133,16 +133,16 @@ if start1 != 7:
             if favorite == "y":
                 print("cool")
                 restart1 = input(
-                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint1 = checkpoint1 + 4
                 elif restart1 == "s":
-                    start1 = 2
+                    start1 = start1 - 3
                 elif restart1 == "e":
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint1 = checkpoint1 + 4
                 elif restart1 == "s":
@@ -160,7 +160,7 @@ if start1 != 7:
             if favorite == "y":
                 print("cool")
                 restart1 = input(
-                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint2 = checkpoint2 + 4
                 elif restart1 == "s":
@@ -169,9 +169,9 @@ if start1 != 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint2 = checkpoint2 + 4
                 elif restart1 == "s":
                     start1 = 2
                 elif restart1 == "e":
@@ -187,7 +187,7 @@ if start1 != 7:
             if favorite == "y":
                 print("cool")
                 restart1 = input(
-                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint3 = checkpoint3 + 4
                 elif restart1 == "s":
@@ -196,9 +196,9 @@ if start1 != 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e\nEnter number: '").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint3 = checkpoint3 + 4
                 elif restart1 == "s":
                     start1 = 2
                 elif restart1 == "e":
@@ -214,7 +214,7 @@ if start1 != 7:
             if favorite == "y":
                 print("cool")
                 restart1 = input(
-                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                    "if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number: ").lower().strip()
                 if restart1 == "fix1":
                     checkpoint4 = checkpoint4 + 4
                 elif restart1 == "s":
@@ -223,9 +223,9 @@ if start1 != 7:
                     exit()
             if favorite == "n":
                 print("why not")
-                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'").lower().strip()
+                restart1 = input("if you want to fix your last answer type 'fix1'\nIf you want to start from the beginning type 's'\nif you want to end the code type 'e'\nEnter number:").lower().strip()
                 if restart1 == "fix1":
-                    checkpoint1 = checkpoint1 + 4
+                    checkpoint4 = checkpoint4 + 4
                 elif restart1 == "s":
                     start1 = 2
                 elif restart1 == "e":
