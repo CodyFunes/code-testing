@@ -1,7 +1,7 @@
 #New checkpoint concept
 #Failed checkpoint code is on row 121
 
-
+#This is the starting question code.
 def start1():
     start_story = 0
     while start_story != 1 and start_story != 2 and start_story != 3 and start_story != 4:
@@ -14,7 +14,7 @@ def start1():
     checkpoint(start_story)
 
 
-
+#This code is for when the user inputs 1
 def checkpoint(start_story):
     if start_story == 1:
         favorite = input("Is this your favorite number. Y/N: ").lower().strip()
@@ -41,7 +41,7 @@ def checkpoint(start_story):
                 return checkpoint(start_story)
             elif restart1 == "e":
                 exit()
-
+    # This code is for when the user inputs 2
     if start_story ==2:
         favorite = input("Is this your favorite number. Y/N: ").lower().strip()
         while favorite != "y" and favorite != "n":
@@ -67,7 +67,7 @@ def checkpoint(start_story):
                 return start1()
             elif restart1 == "e":
                 exit()
-
+# This code is for when the user inputs 3
     if start_story ==3:
         favorite = input("Is this your favorite number. Y/N: ").lower().strip()
         while favorite != "y" and favorite != "n":
@@ -93,7 +93,7 @@ def checkpoint(start_story):
                 return start1()
             elif restart1 == "e":
                 exit()
-
+#This code is for when the user inputs 4
     if start_story == 4:
         favorite = input("Is this your favorite number. Y/N: ").lower().strip()
         while favorite != "y" and favorite != "n":
